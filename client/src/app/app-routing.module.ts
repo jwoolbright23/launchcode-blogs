@@ -6,6 +6,7 @@ import { BlogListComponent } from './blog-list/blog-list.component';
 const routes: Routes = [
   {path: "blog-list", component: BlogListComponent },
   {path: "add-blog", component: AddBlogComponent },
+  {path: "", component: AddBlogComponent}
 ];
 
 @NgModule({
